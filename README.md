@@ -44,11 +44,7 @@
 
 #### p6df-awssam/init.zsh:
 
-- p6df::modules::awssam::build(template_file, output_dir)
-- p6df::modules::awssam::deploy(stack_name, template_file, capabilities)
 - p6df::modules::awssam::deps()
-- p6df::modules::awssam::invoke(function_name, event_file, output_file)
-- p6df::modules::awssam::validate_template(template_file)
 
 
 

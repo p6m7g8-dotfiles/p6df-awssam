@@ -13,4 +13,3 @@ p6df::modules::awssam::deps() {
     aws/aws-sam-cli
   )
 }
-
