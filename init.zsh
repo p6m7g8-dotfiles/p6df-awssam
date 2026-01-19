@@ -19,7 +19,7 @@ p6df::modules::awssam::deps() {
 #
 # Function: p6df::modules::awssam::init()
 #
-#  Environment:	 DOCKER_DEFAULT_PLATFORM DOCKER_HOST
+#  Environment:	 DOCKER_DEFAULT_PLATFORM DOCKER_HOST HOME
 #>
 ######################################################################
 p6df::modules::awssam::init() {
