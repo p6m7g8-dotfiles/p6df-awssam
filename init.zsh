@@ -17,13 +17,15 @@ p6df::modules::awssam::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::awssam::init()
+# Function: p6df::modules::awssam::env::init()
 #
 #  Environment:	 DOCKER_DEFAULT_PLATFORM DOCKER_HOST HOME
 #>
 ######################################################################
-p6df::modules::awssam::init() {
+p6df::modules::awssam::env::init() {
 
+  local _module="$1"
+  local _dir="$2"
   p6_env_export "DOCKER_HOST" "unix://$HOME/.docker/run/docker.sock"
   p6_env_export "DOCKER_DEFAULT_PLATFORM" "linux/amd64"
 
