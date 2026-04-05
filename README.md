@@ -36,7 +36,10 @@ TODO: Add a short summary of this module.
 ##### p6df-awssam/init.zsh
 
 - `p6df::modules::awssam::deps()`
-- `p6df::modules::awssam::init()`
+- `p6df::modules::awssam::env::init(_module, _dir)`
+  - Args:
+    - _module
+    - _dir
 
 ## Hierarchy
 
